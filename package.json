@@ -1,0 +1,34 @@
+{
+  "name": "bss-react",
+  "version": "1.0.0",
+  "description": "Make using bss in react fluently",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/futurist/bss-react.git"
+  },
+  "keywords": [
+    "bss",
+    "react"
+  ],
+  "author": "James Yang <jamesyang999@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/futurist/bss-react/issues"
+  },
+  "homepage": "https://github.com/futurist/bss-react#readme",
+  "dependencies": {
+    "bss": "*",
+    "classnames": "*"
+  },
+  "devDependencies": {
+    "rollup": "^0.67.1",
+    "rollup-plugin-buble": "^0.19.4",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0"
+  }
+}
